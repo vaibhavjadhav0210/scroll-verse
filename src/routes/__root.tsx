@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Techfest Task" },
+      { name: "description", content: "An interactive parallax scrolling page that creates a deep 3D effect with layered elements moving at different speeds." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Techfest Task" },
+      { property: "og:description", content: "An interactive parallax scrolling page that creates a deep 3D effect with layered elements moving at different speeds." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Techfest Task" },
+      { name: "twitter:description", content: "An interactive parallax scrolling page that creates a deep 3D effect with layered elements moving at different speeds." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7ec24cda-bf5d-46b5-963c-8eb58248e276/id-preview-492e4453--c2558d9a-04ba-488e-b4e0-db238bd95f61.lovable.app-1782637930179.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7ec24cda-bf5d-46b5-963c-8eb58248e276/id-preview-492e4453--c2558d9a-04ba-488e-b4e0-db238bd95f61.lovable.app-1782637930179.png" },
     ],
     links: [
       {
